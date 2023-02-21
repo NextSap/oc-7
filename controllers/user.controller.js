@@ -1,3 +1,5 @@
+require('dotenv').config({path: '../.env'});
+
 const User = require("../models/user.model");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
@@ -10,7 +12,7 @@ exports.signup = (req, res, next) => {
                 password: hash
             });
             user.save()
-                .then(() => res.status(201).json({message: "201 CREATED: User created"}))
+                .then(() => res.status(201).json({message: "201 Created: User created"}))
                 .catch(error => res.status(400).json({error}));
         })
         .catch(error => res.status(500).json({error}));
