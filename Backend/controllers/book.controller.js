@@ -34,7 +34,6 @@ exports.createBook = (req, res, next) => {
 exports.updateBook = (req, res, next) => {
     Book.findOne({_id: req.params.id})
         .then(book => {
-            console.log(book.userId, req.auth.userId)
             if (book.userId !== req.auth.userId) {
                 res.status(401).json({message: "401 Unauthorized: You just can update your own books"});
                 return;
