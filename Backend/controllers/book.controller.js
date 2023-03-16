@@ -24,9 +24,7 @@ exports.createBook = (req, res, next) => {
     const book = new Book({
         ...JSON.parse(req.body.book),
         userId: req.auth.userId,
-        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`,
-        ratings: [],
-        averageRating: 0
+        imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
     });
     book.save()
         .then(() => res.status(201).json({message: "201 Created: Book created"}))
@@ -85,6 +83,7 @@ exports.deleteBook = (req, res, next) => {
 exports.createRating = (req, res, next) => {
     Book.findOne({_id: req.params.id})
         .then(book => {
+            const bookId = req.params.id;
             const userId = req.auth.userId;
             const rating = req.body.rating;
 
@@ -111,7 +110,10 @@ exports.createRating = (req, res, next) => {
             book.averageRating = averageRating / book.ratings.length;
 
             book.save()
-                .then(book => res.status(201).json({book}))
+                .then(book => {
+                    console.log("BOOK SAVED",book)
+                    res.status(201).json(book)
+                })
                 .catch(error => res.status(500).json({error}));
         })
         .catch(error => res.status(404).json({error}))
