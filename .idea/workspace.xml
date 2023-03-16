@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef22d0d-1e72-4f99-a211-bee7a2da7ac4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/components/Books/BookRatingForm/BookRatingForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/components/Books/BookRatingForm/BookRatingForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/book.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/user.controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/auth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/multer-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/book.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/book.routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/user.routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/images/7NPGRUKvdKEIpQeTH4nEAZfvmvYJx8EX.png1677255823821.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/images/Booki(1).png1677071656570.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/images/Sophie_Bluel.png1677255398127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/images/images.png1678974085051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/middlewares/multer-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/middlewares/multer-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/routes/book.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/routes/book.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +62,8 @@
       <workItem from="1677484478197" duration="597000" />
       <workItem from="1677583901671" duration="579000" />
       <workItem from="1677600414378" duration="607000" />
-      <workItem from="1678972290528" duration="1626000" />
+      <workItem from="1678972290528" duration="2426000" />
+      <workItem from="1678994322964" duration="4351000" />
     </task>
     <servers />
   </component>
