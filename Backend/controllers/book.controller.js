@@ -38,14 +38,16 @@ exports.updateBook = (req, res, next) => {
                 res.status(401).json({message: "401 Unauthorized: You just can update your own books"});
                 return;
             }
+
             delete req.body.userId
             delete req.body.ratings
             delete req.body.averageRating
 
+            const bookJSON = req.file ? JSON.parse({...req.body}.book) : {...req.body};
             const bookObject = req.file ? {
-                ...req.body.book,
+                ...bookJSON,
                 imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
-            } : {...req.body}
+            } : {...bookJSON}
 
             Book.updateOne({_id: req.params.id}, {
                 userId: req.auth.userId,
