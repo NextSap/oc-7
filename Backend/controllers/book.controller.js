@@ -47,7 +47,6 @@ exports.updateBook = (req, res, next) => {
                 imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
             } : {...req.body}
 
-
             Book.updateOne({_id: req.params.id}, {
                 userId: req.auth.userId,
                 ...bookObject,

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bef22d0d-1e72-4f99-a211-bee7a2da7ac4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/controllers/book.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/controllers/book.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/images/7NPGRUKvdKEIpQeTH4nEAZfvmvYJx8EX.png1677255823821.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/images/Booki(1).png1677071656570.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/images/Sophie_Bluel.png1677255398127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/images/images.png1678974085051.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/middlewares/multer-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/middlewares/multer-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/routes/book.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/routes/book.routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +60,10 @@
       <workItem from="1677583901671" duration="579000" />
       <workItem from="1677600414378" duration="607000" />
       <workItem from="1678972290528" duration="2426000" />
-      <workItem from="1678994322964" duration="5252000" />
+      <workItem from="1678994322964" duration="5895000" />
+      <workItem from="1679065443401" duration="142000" />
+      <workItem from="1679312632375" duration="88000" />
+      <workItem from="1679678981507" duration="4820000" />
     </task>
     <servers />
   </component>
